@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  teacher_id: 1
+  student_id: 1
+  scheduled: 2013-10-20 23:01:24
+
+two:
+  teacher_id: 1
+  student_id: 1
+  scheduled: 2013-10-20 23:01:24
