@@ -14,9 +14,4 @@ Teacher.create!(name: 'Mr. Smith')
 Teacher.create!(name: 'Mrs. Jones')
 Teacher.create!(name: 'Ms. Snow')
 
-Course.create!(title: 'Computer Programming', scheduled: '
-2013-12-21 06:42:00 UTC')
-Course.create!(title: 'French', scheduled: '
-2013-11-07 04:30:00 UTC')
-Course.create!(title: 'Physics', scheduled: '
-2013-10-31 12:30:00 UTC')
+

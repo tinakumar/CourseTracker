@@ -1,12 +1,12 @@
-<h1>Available Courses</h1>
+<h1>Tutoring Course Schedule</h1>
 
 <table>
   <thead>
     <tr>
       <th>Course Name</th>
+      <th>Teacher</th>
+      <th>Student</th>
       <th>Scheduled</th>
-      <th></th>
-      <th></th>
       <th></th>
       <th></th>
     </tr>
@@ -16,6 +16,8 @@
     <% @courses.each do |course| %>
       <tr>
         <td><%= course.title %></td>
+        <td><%= course.teacher.name %></td>
+        <td><%= course.student.name %></td>
         <td><%= course.scheduled %></td>
         <td><%= link_to 'Show', course %></td>
         <td><%= link_to 'Edit', edit_course_path(course) %></td>
